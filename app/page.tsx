@@ -15,16 +15,19 @@ import { StickyCTA } from '@/components/shared/sticky-cta';
 export default function Home() {
   return (
     <>
-  <Hero />
-  <StatsCounter />
-  <WhyChooseBento />
-  <PracticeAreas />
-  <Timeline />
-  <ProcessStepper />
-  <UsaMap />
-  <CaseResults />
-  <Testimonials />
-  <KnowledgeCenterGrid />
-  <AttorneyProfile />
-  {/* <ContactSplit /> */}
-</>
+      <Hero />
+      <StickyCTA />
+      <StatsCounter />
+      <WhyChooseBento />
+      <PracticeAreas />
+      <Timeline />
+      <ProcessStepper />
+      <UsaMap />
+      <CaseResults />
+      <Testimonials />
+      <KnowledgeCenterGrid />
+      <AttorneyProfile />
+      {/* <ContactSplit /> */}
+    </>
+  );
+}
