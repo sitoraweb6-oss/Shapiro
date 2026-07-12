@@ -31,7 +31,7 @@ export function StickyCTA() {
           animate={{ y: 0, opacity: 1 }}
           exit={{ y: 100, opacity: 0 }}
           transition={{ duration: 0.4, ease: "easeOut" }}
-          className="fixed bottom-6 right-6 z-40 hidden md:flex"
+          className="fixed bottom-16 right-6 z-40 hidden md:flex items-center gap-4"
         >
           <div className="bg-surface shadow-glass rounded-full p-2 flex items-center border border-border">
             <a 
@@ -70,7 +70,7 @@ export function StickyCTA() {
           </a>
           <Link
             href="#contact"
-            className="flex-1 bg-accent text-white py-3 rounded-sm font-semibold text-center"
+            className="flex-1 bg-accent text-white py-3 rounded-sm font-semibold text-center flex items-center justify-center"
           >
             Book Free Review
           </Link>

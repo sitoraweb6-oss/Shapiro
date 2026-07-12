@@ -4,6 +4,7 @@ import './globals.css';
 import { SiteHeader } from '@/components/shared/site-header';
 import { SiteFooter } from '@/components/shared/site-footer';
 import { SmoothScroll } from '@/components/shared/smooth-scroll';
+import { CoreAttribution } from '@/components/core-attribution';
 
 const display = Cormorant_Garamond({
   subsets: ['latin'],
@@ -41,6 +42,7 @@ export default function RootLayout({
         <SiteHeader />
         <main>{children}</main>
         <SiteFooter />
+        <CoreAttribution />
       </body>
     </html>
   );

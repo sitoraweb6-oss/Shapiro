@@ -52,7 +52,7 @@ export function SiteFooter() {
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
           <div className="text-white/50 text-[12px] space-y-2 max-w-3xl">
             <p>Past results do not guarantee future outcomes. The information on this website is for general information purposes only. Nothing on this site should be taken as legal advice for any individual case or situation. This information is not intended to create, and receipt or viewing does not constitute, an attorney-client relationship.</p>
-            <p>&copy; {new Date().getFullYear()} Shapiro Legal Group, PLLC. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} Shapiro Legal Group, PLLC. All rights reserved. | Developed by <a href="https://sitora.org" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">Sitora Web</a></p>
           </div>
           <div className="flex space-x-6">
             <Link href="#" className="text-white/50 hover:text-white transition-colors text-body-s">Privacy Policy</Link>
