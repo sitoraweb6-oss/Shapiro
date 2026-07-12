@@ -37,7 +37,7 @@ function MagneticButton({ children, className = '' }: { children: React.ReactNod
 
 export function Hero() {
   return (
-    <section className="relative min-h-[100svh] pt-32 pb-16 lg:pt-0 lg:pb-0 flex items-center overflow-hidden bg-bg">
+    <section className="relative min-h-[100svh] pt-32 pb-16 lg:pt-0 lg:pb-0 flex items-start overflow-hidden bg-bg">
       {/* Background Layers */}
       
       {/* 1. Subtle Animated Grain */}
@@ -85,7 +85,7 @@ export function Hero() {
         </motion.svg>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full relative z-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full relative z-10 my-auto lg:py-24">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
           
           {/* Left Column: Copy */}
